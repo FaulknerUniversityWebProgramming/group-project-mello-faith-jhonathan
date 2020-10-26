@@ -64,17 +64,17 @@ November 23: Application completed.
 
  
 
-Users will be able to login. 
+[] Users will be able to login. 
 
-Home Page 
+[] Home Page 
 
-Page that will display roster and schedule. 
+[] Page that will display roster and schedule. 
 
-Gear store where users can pick the products they want to buy 
+[] Gear store where users can pick the products they want to buy 
 
-Checkout page, users can check the products they pick, convert currency and pay for their new gear. 
+[] Checkout page, users can check the products they pick, convert currency and pay for their new gear. 
 
-Contact Us page where Faulkner Fans can send a message to the team. 
+[] Contact Us page where Faulkner Fans can send a message to the team. 
 
  
 
@@ -115,7 +115,7 @@ Users will be able to visualize the items they picked on the gear store, convert
 Contact Us will let the user to interact with the team. This page will include a form that will be filled by the user and send info to a main email. 
 
  
-3. Wireframe 
+## 3. Wireframe 
 
  
 
