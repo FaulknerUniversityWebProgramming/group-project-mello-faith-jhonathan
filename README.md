@@ -117,7 +117,7 @@ Contact Us will let the user to interact with the team. This page will include a
  
 ## 3. Wireframe 
 
- 
+<embed src="wireframe.pdf"  />
 
  
 
