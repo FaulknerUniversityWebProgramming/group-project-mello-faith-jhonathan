@@ -117,7 +117,9 @@ Contact Us will let the user to interact with the team. This page will include a
  
 ## 3. Wireframe 
 
-<embed src="wireframe.pdf"  />
+<object data="wireframe.pdf" type="application/pdf" width="300" height="200">
+<a href="wireframe.pdf">Wireframe</a>
+</object>
 
  
 
