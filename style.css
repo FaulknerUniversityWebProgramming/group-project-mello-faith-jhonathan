@@ -1,7 +1,8 @@
 body{
     background-color:  #e6e6e6;
+    
 }
-img{
+.img-fluid{
     
 
     width: 5%;
@@ -18,5 +19,50 @@ img{
  
   margin-left: auto;
   margin-right: auto;
+    
   
 }
+
+#title{
+    text-align: center;
+}
+
+
+
+.card{
+    margin-right: auto;
+    margin-left: auto;
+    font-size: x-large; 
+    padding-left: 60px;
+}
+
+.card-body{
+    background-color: #272727;
+    color: #e6e6e6;
+    vertical-align: middle;
+    border-radius: 5%;
+     margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+   
+}
+
+.card-title{
+    text-align: center;
+}
+
+.thead{
+    background-color: #272727;
+    color: white;
+}
+
+.profile{
+    width: 3%;
+    height: 5%;
+    
+}
+
+
+
+
+
