@@ -1,8 +1,9 @@
-<?php  
+ <?php  
 
-if ($PHP_AUTH_USER != "mysuser"  
 
-    or $PHP_AUTH_PW != "mypass"):  
+if ($PHP_AUTH_USER != "faithp.king@gmail.com"  
+
+    or $PHP_AUTH_PW != "Perspective22"):  
 
   // Bad or no username/password.  
 
@@ -49,7 +50,7 @@ try {
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
     $mail->isSMTP();                                            // Send using SMTP
-    $mail->Host       = 'smtp1.example.com';                    // Set the SMTP server to send through
+    $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
     $mail->Username   = 'faithp.king@gmail.com';                     // SMTP username
     $mail->Password   = 'Perspective22';                               // SMTP password
