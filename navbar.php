@@ -1,4 +1,5 @@
-  <nav class="navbar navbar-inverse">
+ 
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
       
@@ -16,7 +17,6 @@
       </li>
       <li><a href="#">Online Store</a></li>
         
-        <img class="img-fluid" src="https://www.wsfa.com/resizer/oYztnC4K8W7SwR2eUMO5Prkwv7U=/1200x900/cloudfront-us-east-1.images.arcpublishing.com/raycom/XCXXBGM5C5BIJB23MUDYKDSQ2E.jpg" alt="Faulkner Logo" style="display: inline-block;">
         
             </ul>
   <span ></span>

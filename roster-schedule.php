@@ -11,6 +11,7 @@
   <thead class="thead">
     <tr>
       <th scope="col">#</th>
+        
       <th scope="col">Name</th>
       <th scope="col">Position</th>
       <th scope="col">Class</th>
@@ -26,6 +27,7 @@
       <td>Freshman</td>
       <td>Business</td>
       <td>Santiago, Chile</td>      
+        
     </tr>
       
     <tr>
