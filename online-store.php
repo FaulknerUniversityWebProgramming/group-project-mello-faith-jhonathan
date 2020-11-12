@@ -1,14 +1,10 @@
-<!DOCTYPE HTML>
-<html lang="en">
-    <head>
-        <!-- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />   -->
-        <title id="OnlineStore">CHECKOUT</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="online-store.css">
-    </head>
-    
-    <body>
-    <!-- <img src="https://www.wsfa.com/resizer/oYztnC4K8W7SwR2eUMO5Prkwv7U=/1200x900/cloudfront-us-east-1.images.arcpublishing.com/raycom/XCXXBGM5C5BIJB23MUDYKDSQ2E.jpg" alt="Faulkner Logo"> -->
+<?php 
+    include 'header.php';
+    include 'navbar.php';
+
+?>
+
+<!-- <img src="https://www.wsfa.com/resizer/oYztnC4K8W7SwR2eUMO5Prkwv7U=/1200x900/cloudfront-us-east-1.images.arcpublishing.com/raycom/XCXXBGM5C5BIJB23MUDYKDSQ2E.jpg" alt="Faulkner Logo"> -->
         <div>
         <div class="checkout">
             <div>
@@ -100,5 +96,7 @@
             </div>            
         </div>
         </div>
-    </body>
-</html>
+<?php 
+
+include 'footer.php';
+?>
