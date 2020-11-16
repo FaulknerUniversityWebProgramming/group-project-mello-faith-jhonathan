@@ -16,14 +16,34 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `Users`
+-- Table structure for table `Product`
 --
+
+DROP TABLE IF EXISTS `Product`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `Product` (
+  `idProduct` int(11) NOT NULL,
+  `productName` varchar(45) DEFAULT NULL,
+  `price` int(11) DEFAULT NULL,
+  `description` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`idProduct`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+DROP TABLE IF EXISTS `Purchase`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `Purchase` (
+  `idPurchase` int(11) NOT NULL,
+  PRIMARY KEY (`idPurchase`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 DROP TABLE IF EXISTS `Users`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `Users` (
-  `idUsers` int(11) NOT NULL,
+  `idUsers` int(11) NOT NULL AUTO_INCREMENT,
   `fullName` varchar(45) NOT NULL,
   `username` varchar(45) NOT NULL,
   `password` varchar(45) NOT NULL,
