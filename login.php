@@ -1,8 +1,13 @@
 <?php 
+
+
+ 
     include 'header.php';
     include 'navbar.php';
 
+
 ?>
+
      <!--<form action="/action_page.php">
             <div class="login">
                 <input type="text" placholder="USERNAME"><br>
@@ -14,19 +19,19 @@
 
 
 
-<form class='login-form' action="/action_page.php" method="post">
+<form class='login-form' action="login-action.php" method="post">
   <div class="imgcontainer">
     <img src="img/faulkner-logo.png" alt="Avatar" class="avatar">
   </div>
 
   <div class="container-login">
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+    <label for="username"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="username" required>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <label for="password"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" required>
         
-    <button type="submit">Login</button>
+    <button type="submit" name="login">Login</button>
     <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
     </label>
@@ -39,6 +44,8 @@
 </form>
         
 <?php 
+
+
 include 'footer.php'
 
 ?>
