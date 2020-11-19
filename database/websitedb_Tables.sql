@@ -23,12 +23,21 @@ DROP TABLE IF EXISTS `Product`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `Product` (
-  `idProduct` int(11) NOT NULL,
+  `idProduct` int(11) NOT NULL AUTO_INCREMENT,
   `productName` varchar(45) DEFAULT NULL,
-  `price` int(11) DEFAULT NULL,
+  `price` float(11) DEFAULT NULL,
   `description` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`idProduct`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO `Product` (productName, price, description) VALUES
+('Faulkner Soccer T-Shirt Blue', 19.99, 'Faulkner University Fruit Of The Loom Mens 5oz Cotton T-Shirt'),
+('Faulkner Soccer T-Shirt Grey', 19.99, 'Faulkner University Fruit Of The Loom Mens 5oz Cotton T-Shirt'),
+('Faulkner Soccer Sweatshirt', 29.99, 'Faulkner University JERZEES Unisex 50/50 NuBlend® 8oz Crewneck Sweatshirt '),
+('Faulkner Soccer Hoodie', 39.99, 'Faulkner University SofSpun™ 7.2oz Unisex Hooded Sweatshirt '),
+('Faulkner Soccer Hat', 23.99, 'Embroidered Fanthread™ Cool & Dry Flexcap®'),
+('Faulkner Facemask', 14.99, 'Fanthread™ Face Mask');
+
 
 
 DROP TABLE IF EXISTS `Purchase`;
@@ -50,6 +59,8 @@ CREATE TABLE `Users` (
   PRIMARY KEY (`idUsers`),
   UNIQUE KEY `username_UNIQUE` (`username`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO 'Users'
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -60,5 +71,3 @@ CREATE TABLE `Users` (
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
-
--- Dump completed on 2020-11-06 18:14:19
