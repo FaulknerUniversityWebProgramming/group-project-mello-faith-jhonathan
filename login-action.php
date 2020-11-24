@@ -21,7 +21,7 @@ $row = $query->fetch(PDO::FETCH_BOTH);
 
 if($query->rowCount() > 0) {
   $_SESSION['username'] = $user;
-  header('location:roster-schedule.php');
+  header('location:gallery.php');
 } else {
   $message = "Username/Password is incorrect";
 }

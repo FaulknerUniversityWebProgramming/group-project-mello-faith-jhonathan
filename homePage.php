@@ -4,41 +4,6 @@ include 'header.php';
 ?>
 
 
-<!-- <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
-
-body, html {
-  height: 100%;
-  line-height: 1.8;
-}
-
-/* Full height image header */
-.bgimg-1 {
-  background-position: center;
-  background-size: cover;
-  background-image: url("https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/96708683_3209227409111244_7269840126870552576_n.jpg?_nc_cat=104&ccb=2&_nc_sid=110474&_nc_ohc=tQk32eMh2s0AX-mdoRN&_nc_ht=scontent-atl3-1.xx&oh=84b68c0d6184ba29f9870b01e16e134b&oe=5FDB3BBA");
-  min-height: 100%;
-}
-
-.w3-bar .w3-button {
-  padding: 16px;
-}
-</style>
--->
-
-<!-- Navbar (sit on top) -->
-
-
-<!-- Sidebar on small screens when clicking the menu icon -->
-<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
-  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
-  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
- <!-- <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>  -->
-  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
-</nav>
-
 <!-- Header with full-height image -->
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
   <div class="w3-display-left w3-text-white" style="padding:48px">
@@ -55,10 +20,9 @@ body, html {
   </div>
 </header>
 
-<!-- About Section -->
+<!-- values Section -->
 <div class="w3-container" style="padding:128px 16px" id="about">
   <h3 class="w3-center">Our Core Values </h3>
-<!--   <p class="w3-center w3-large">Key features of our company</p> -->
   <div class="w3-row-padding w3-center" style="margin-top:64px">
     <div class="w3-quarter">
       <i class="glyphicon glyphicon-education w3-margin-bottom w3-jumbo w3-center"></i>
@@ -83,14 +47,14 @@ body, html {
   </div>
 </div>
 
-<!-- Promo Section - "We know design" -->
+<!-- Quote section-->
 <div class="w3-container w3-light-grey" style="padding:128px 16px">
   <div class="w3-row-padding">
     <div class="w3-col m6">
      <!-- <h3>You can't score a goal, <br> if you don't take a shot.</h3>
       <p>-Johan Cruijff</p> --> 
         
-        <h3> The contest lasts for moments<br>
+        <h3> "The contest lasts for moments<br>
 Though the training's taken years,<br>
 It wasn't the winning alone that<br>
 Was worth the work and the tears<br>
@@ -106,26 +70,23 @@ You only grow by how much you put in<br>
 So any new challenge<br>
 You've just begun<br>
 Put forth your best<br>
-And you've already won.</h3>
+And you've already won."</h3>
         <p>- Bill Clennan</p>
-      <!-- <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>  -->
     </div> 
+      
     <div class="w3-col m6">
-      <img class="w3-image w3-round-large" src="https://www.wsfa.com/resizer/oYztnC4K8W7SwR2eUMO5Prkwv7U=/1200x900/cloudfront-us-east-1.images.arcpublishing.com/raycom/XCXXBGM5C5BIJB23MUDYKDSQ2E.jpg" alt="Buildings" width="700" height="394">
+      <img class="w3-image w3-round-large" src="/group-project-mello-faith-jhonathan/img/team.jpg" alt="Buildings" width="700" height="394">
     </div>
   </div>
 </div>
 
 
-
-
-
-<!-- Work Section -->
+<!-- pictures snippet -->
 <div class="w3-container" style="padding:128px 16px" id="work">
   <h3 class="w3-center">Galery</h3>
   <p class="w3-center w3-large">Some of our favorite pictures</p>
 
-  <div class="w3-row-padding" style="margin-top:64px">
+  <div class="w3-row-padding" style="margin-top:64px" >
     <div class="w3-col l3 m6">
       <img src="https://www.wsfa.com/resizer/oYztnC4K8W7SwR2eUMO5Prkwv7U=/1200x900/cloudfront-us-east-1.images.arcpublishing.com/raycom/XCXXBGM5C5BIJB23MUDYKDSQ2E.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
     </div>
@@ -158,7 +119,7 @@ And you've already won.</h3>
     <div class="w3-col m6">
      
       
-      <p><a href="/group-project-mello-faith-jhonathan/photos.php" class="w3-button w3-black"><i class="fa fa-th"> </i> See more</a></p>
+      <p><a href="login.php" class="w3-button w3-black"><i class="fa fa-th"> </i> See more</a></p>
     </div>
 </div>
 
