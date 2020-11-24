@@ -1,6 +1,7 @@
 <?php 
     include 'header.php';
     include 'navbar.php';
+    
 ?>
 <div class="modal-body row">
   <div class="col-md-8">
