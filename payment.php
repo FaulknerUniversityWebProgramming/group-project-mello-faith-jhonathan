@@ -1,27 +1,38 @@
 <?php
     include 'header.php';
     include 'navbar.php';
+include 'myDB.php';
+?>
 
+<?php
+$msg = "";
 if($_SERVER["REQUEST_METHOD"] == "POST"){
         
         $stmt = $conn->prepare("DELETE FROM Purchase");
         $stmt->execute();
-        $checkout = $stmt->fetch(PDO::FETCH_ASSOC);
+       
         
-        $msg = "Your purchase is on its way!!";
+        $msg = "YOUR PURCHASE IS ON ITS WAY!!";
     }
 
 ?>
 <?php
         if(strlen($msg) > 0){
-            echo "<strong>".$msg."</strong>";
+            echo "<h1 style='text-align=center;'><strong>".$msg."</strong></h1>";
         }
     ?>
-<h1 style="text-align: center;">Responsive Checkout Form</h1>
+<br>
+<br>
+<button id='back-shopping'>
+        Back to Shopping
+    </button>
+    <br>
+<h1 style="text-align: center;">CHECKOUT</h1>
 <div class="Fields">
 <div>
 <div class="formContainer">
-<form>
+    
+<form method='post' action="<?php echo $_SERVER['PHP_SELF']?>">
 <div class="Fields">
 <div>
 <h3>Billing Address</h3>
@@ -50,11 +61,28 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 </div>
 </div>
 </div>
-<input
+<button
 type="submit"
-value="Confirm payment"
-class="checkout"
-/>
+
+id="checkout"
+        >CONFIRM PAYMENT</button>
+    
+    </form>
+    </div>
+    </div>
+</div>
+    
+    <script>
+        var back = document.getElementById("back-shopping");
+        back.addEventListener('click', function(){
+          window.location.href = 'online-store.php';  
+        });
+        
+        var checkout = document.getElementById("checkout");
+        checkout.addEventListener('click', function(){
+            window.location.href = 'online-store.php';
+        });
+    </script>
     
     <style>
     .formContainer {
@@ -66,8 +94,11 @@ class="checkout"
         width: 800px;
         margin: auto auto;
 }
+        
+        #back-shopping{
+        width: 10%;
+        margin: auto auto;
     </style>
-</form>
     
     <?php
         include 'footer.php';

@@ -93,7 +93,7 @@ function test_input($data) {
 <div class="card">
 
   <!-- Card body -->
-  <div class="card-body">
+  <div class="card-body col-sm-8">
 
     <!-- Material form register -->
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
